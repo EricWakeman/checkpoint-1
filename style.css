@@ -1,0 +1,113 @@
+:root{
+    --forest: #395113;
+    --text-outline: #080101; 
+    
+
+    
+
+
+
+}
+.uppernav{
+    height: 8rem;
+    background-color: #395113;
+    box-shadow: inset;
+
+}
+
+.snake-banner{
+    background-image: url("assets/ulrike-langner-rhh7HCARWHg-unsplash.jpg");
+    height: 52rem;
+}
+
+
+
+.info-field{
+    height: 40rem;
+    width: 35rem;
+}
+
+.phone-field{
+width: 60%;
+margin-right: 0;
+}
+.extension-field{
+width: 30%;
+margin-left: 0;
+}
+.message-field{
+    height: 40%;
+
+}
+.chex-box{
+    height: 20px;
+    width: 20px;
+}
+
+.new-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-to-hide{
+    border-left: 5px solid var(--forest);
+    padding-left: 75px;
+    max-width: 50%;
+    text-shadow: 0 0 3px black, 0 0 3px var(--text-outline);
+}
+.stupid-box{
+    position: absolute;
+    top: 0;
+}
+@media screen and (max-width: 992px) {
+    .stupid-box{
+        position: relative;
+    }
+}
+@media screen and (max-width: 992px) {
+    .banner-to-hide{
+        display: none;
+    }
+}
+
+.mid-banner{
+    background-color: var(--forest);
+}
+
+.stupid-banner{
+    background-color: var(--forest);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner-3{
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .snake-specs{
+     height: 45rem;
+ }
+ .cta-specs{
+     margin-top: 20rem;
+     height: 38rem;
+     width: 50rem;
+ }
+ .review-card{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .review-1{
+     margin-top: 4rem;
+    height: 15rem;
+    width: 22rem;
+ }
+ .review-2{
+     margin-top: 4rem;
+     height: 22rem;
+     width: 22rem;
+
+ }
